@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.6.3"),
+        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.7.2"),
     ],
     targets: [
         .target(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "REVUPMediaVungle",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.0.0/REVUPMediaVungle.zip",
-            checksum: "5a96c2d10c0b22a4205e95b330cb80c3364b54623ff28c4e15d0172ef7380117"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.0/REVUPMediaVungle.zip",
+            checksum: "d07106c3d18dcba951f02e6d9cd89e5f92bb98a261fe6dbfd46625fe4bfb9c4c"
         ),
     ]
 )
